@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.hfut.library.servlet.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>com.hfut.library.servlet.Register</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Homepage</servlet-name>
+    <servlet-class>com.hfut.library.servlet.Homepage</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Return</servlet-name>
+    <servlet-class>com.hfut.library.servlet.Return</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SearchBook</servlet-name>
+    <servlet-class>com.hfut.library.servlet.SearchBook</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BorrowBook</servlet-name>
+    <servlet-class>com.hfut.library.servlet.BorrowBook</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BookList</servlet-name>
+    <servlet-class>com.hfut.library.servlet.BookList</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BookManage</servlet-name>
+    <servlet-class>com.hfut.library.servlet.BookManage</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RemoveBook</servlet-name>
+    <servlet-class>com.hfut.library.servlet.RemoveBook</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddBook</servlet-name>
+    <servlet-class>com.hfut.library.servlet.AddBook</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateBook</servlet-name>
+    <servlet-class>com.hfut.library.servlet.UpdateBook</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PreUpdateBook</servlet-name>
+    <servlet-class>com.hfut.library.servlet.PreUpdateBook</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>com.hfut.library.servlet.Logout</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdatePassword</servlet-name>
+    <servlet-class>com.hfut.library.servlet.UpdatePassword</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Homepage</servlet-name>
+    <url-pattern>/Homepage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Return</servlet-name>
+    <url-pattern>/Return</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchBook</servlet-name>
+    <url-pattern>/SearchBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BorrowBook</servlet-name>
+    <url-pattern>/BorrowBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookList</servlet-name>
+    <url-pattern>/BookList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookManage</servlet-name>
+    <url-pattern>/BookManage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RemoveBook</servlet-name>
+    <url-pattern>/RemoveBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddBook</servlet-name>
+    <url-pattern>/AddBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateBook</servlet-name>
+    <url-pattern>/UpdateBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PreUpdateBook</servlet-name>
+    <url-pattern>/PreUpdateBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatePassword</servlet-name>
+    <url-pattern>/UpdatePassword</url-pattern>
+  </servlet-mapping>
+
+</web-app>
